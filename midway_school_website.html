@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Midway Nursery and Primary School</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f2f8f7; color: #333; }
+    header { background: linear-gradient(90deg, #4CAF50, #388E3C); color: white; padding: 2rem 0; text-align: center; }
+    nav { background: #2E7D32; padding: 1rem 0; text-align: center; }
+    nav a { color: white; margin: 0 1.5rem; text-decoration: none; font-weight: bold; font-size: 1.1rem; }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588072432836-e10032774350') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero h1 { font-size: 3rem; text-shadow: 2px 2px 4px #000; }
+    .container { max-width: 1200px; margin: auto; padding: 2rem; background: white; margin-top: 1rem; }
+    .section { margin-bottom: 3rem; }
+    .donate-box { background: #e0f7fa; padding: 2rem; border-radius: 10px; text-align: center; }
+    .donate-button { background: #009688; color: white; padding: 0.8rem 2rem; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .gallery img { width: 100%; border-radius: 8px; height: 150px; object-fit: cover; }
+    footer { text-align: center; background: #ddd; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Midway Nursery and Primary School</h1>
+    <p>Kapchorwa District | Kapchorwa Municipality | Kirwoko Ward | Kamukes - Uganda</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Empowering Underprivileged Children Through Education</h1>
+  </section>
+
+  <div class="container">
+    <section class="section" id="about">
+      <h2>About Us</h2>
+      <p>Midway Nursery and Primary School is a community-based institution dedicated to providing inclusive, affordable, and quality education to underprivileged children in Kapchorwa District. Our focus is on empowering every child through holistic learning, character development, and access to opportunities that help them succeed in life.</p>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Nursery Classes (Baby, Middle, Top Class)</li>
+        <li>Primary Education (P1 to P7)</li>
+        <li>Daily Meal Program for Learners</li>
+        <li>Support for Orphans and Vulnerable Children</li>
+        <li>Child Mentorship and Counseling</li>
+        <li>Community Outreach and Parental Involvement</li>
+      </ul>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238" alt="Classroom">
+        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754" alt="Students">
+        <img src="https://images.unsplash.com/photo-1558021212-51b6ecfa0db9" alt="School Building">
+        <img src="https://images.unsplash.com/photo-1590415911305-1a7b4fa44071" alt="Kids Studying">
+      </div>
+    </section>
+
+    <section class="section donate-box" id="donate">
+      <h2>Support Our Mission</h2>
+      <p>Your donation of $40–$50 helps provide meals, uniforms, learning materials, and access to quality education for a child in need.</p>
+      <form action="mailto:midwayscho@gmail.com" method="POST" enctype="text/plain">
+        <button class="donate-button" type="submit">Donate Now</button>
+      </form>
+      <p>Email us at <a href="mailto:midwayscho@gmail.com">midwayscho@gmail.com</a></p>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Email:</strong> <a href="mailto:midwayscho@gmail.com">midwayscho@gmail.com</a></p>
+      <p><strong>Phone:</strong> +256 781 022933</p>
+      <p><strong>Location:</strong> Kapchorwa Municipality, Kirwoko Ward, Kamukes, Uganda</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Midway Nursery and Primary School. All rights reserved.</p>
+  </footer>
+</body>
+</html>
